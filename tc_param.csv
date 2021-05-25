@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.facebook.com/,,
+2,Browser,loadtimepage,waitForPageLoaded,,,fc
+3,fccc,un,Set,TestData0:username,,fc
+4,fccc,pswd,setEncrypted,TestData0:password,,fc
+5,Browser,dd,,,,

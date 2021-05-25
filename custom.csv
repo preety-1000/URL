@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,open url,Open,@https://www.facebook.com/,,
+2,Browser," wait for page to load",waitForPageLoaded,,,
+3,customobj,move to that element,moveTo,,,WPage4

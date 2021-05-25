@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,opening of the url,Open,@https://www.guru99.com/,,
+2,Browser,"  waiting for the loading of page ",waitForPageLoaded,,,
+3,Browser,"verify title of the page ",assertTitleEquals,@Meet Guru99 - Free Training Tutorials & Video for IT Courses,,
+4,WObject0," click on the link",Click,,,WPage1
+5,Browser,verify the text,assertTextPresentInPage,@Software Testing Tutorial: Free QA Course,,
+6,Browser,navigate to previous page,back,,,
+7,Tc_001,click on the link,Click,,,WPage2
+8,Tc_0011," verify the text",assertElementTextIEquals,@Artificial Intelligence Tutorial: What is AI? Basics for Beginners,,WPage2

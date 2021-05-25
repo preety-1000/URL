@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser," open the browser",Open,@https://www.guru99.com/,,
+2,fccc,"  enter the text",Set,@Software Testing,,fc
+3,Browser," opening the url",Open,@https://www.myntra.com/,,
+4,fccc,enter the text,Set,@Shockes,,fc
+5,Browser,open the browser,Open,@https://www.ftd.travel,,

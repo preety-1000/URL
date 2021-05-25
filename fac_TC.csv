@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,module1:facebook_url,,,
+2,fccc," enter the username",Set,@ujk@facebook.com,,fc
+3,fccc,enter the password,Set,@89700045,,fc
+4,fccc,click on the button,Click,,,fc
+5,Execute,,module1:fc_text,,,
