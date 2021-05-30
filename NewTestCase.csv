@@ -1,8 +1,6 @@
 Step,ObjectName,Description,Action,Input,Condition,Reference
-1,Browser,opening of the url,Open,@https://www.guru99.com/,,
-2,Browser,"  waiting for the loading of page ",waitForPageLoaded,,,
-3,Browser,"verify title of the page ",assertTitleEquals,@Meet Guru99 - Free Training Tutorials & Video for IT Courses,,
-4,WObject0," click on the link",Click,,,WPage1
-5,Browser,verify the text,assertTextPresentInPage,@Software Testing Tutorial: Free QA Course,,
-6,WObject0," Enter the text",Set,TestData0:Data1,,WPage0
-7,Browser,navigate to previous page,back,,,
+1,Browser," oprn the browser",Open,@https://www.ebay.com,,
+2,Browser,wait for the pageloaded,waitForPageLoaded,,,
+3,object1,click on that object,Click,,,loginpage
+4,Browser,Wait for Page to be loaded,waitForPageLoaded,,,loginpage
+5,object2,select the text,Click,,,loginpage
